@@ -1,0 +1,19 @@
+mpirun search
+P:0 stopped at Array index 4723
+P:1 stopped at Array index 9909
+P:2 stopped at Array index 14912
+P:3 stopped at Array index 19494
+P:4 stopped at Array index 24461
+P:5 stopped at Array index 29786
+P:6 stopped at Array index 34442
+P:7 found element 11 at Array index 39641
+mpirun -n 4 search
+P:0 stopped at Array index 9718
+P:1 stopped at Array index 19313
+P:2 stopped at Array index 29291
+P:3 found element 11 at Array index 39641
+mpirun -n 4 --hostfile clusterhosts search
+P:0 stopped at Array index 9691
+P:1 stopped at Array index 18512
+P:2 stopped at Array index 28661
+P:3 found element 11 at Array index 39641
