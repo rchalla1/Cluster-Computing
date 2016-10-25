@@ -1,0 +1,3 @@
+$ mpirun work
+The Average of Odd Index Elements=20000.000000 for Processor 1
+The Average of Even Index Elements =19999.000000 for Processor 2
